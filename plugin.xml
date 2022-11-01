@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-braintree-googlepay-applepay" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>BraintreeGooglePayApplePay</name>
+    <js-module name="BraintreeGooglePayApplePay" src="www/BraintreeGooglePayApplePay.js">
+        <clobbers target="cordova.plugins.BraintreeGooglePayApplePay" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="BraintreeGooglePayApplePay">
+                <param name="android-package" value="cordova-plugin-braintree-googlepay-applepay.BraintreeGooglePayApplePay" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/BraintreeGooglePayApplePay.java" target-dir="src/cordova-plugin-braintree-googlepay-applepay/BraintreeGooglePayApplePay" />
+    </platform>
+</plugin>
