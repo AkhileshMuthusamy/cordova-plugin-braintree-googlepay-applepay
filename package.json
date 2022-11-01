@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-braintree-googlepay-applepay",
+  "version": "0.1.0",
+  "description": "Cordova plugin for Braintree Google Pay and Apple Pay integration.",
+  "cordova": {
+    "id": "cordova-plugin-braintree-googlepay-applepay",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkhileshMuthusamy/cordova-plugin-braintree-googlepay-applepay.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Akhilesh Muthusamy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkhileshMuthusamy/cordova-plugin-braintree-googlepay-applepay/issues"
+  },
+  "homepage": "https://github.com/AkhileshMuthusamy/cordova-plugin-braintree-googlepay-applepay#readme"
+}
