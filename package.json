@@ -14,7 +14,11 @@
   },
   "keywords": [
     "ecosystem:cordova",
-    "cordova-android"
+    "cordova-android",
+    "googlepay",
+    "google pay",
+    "applepay",
+    "apple pay"
   ],
   "author": "Akhilesh Muthusamy",
   "license": "ISC",
