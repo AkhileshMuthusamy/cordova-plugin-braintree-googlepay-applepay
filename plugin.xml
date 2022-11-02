@@ -15,4 +15,12 @@
         <framework src="com.braintreepayments.api:google-pay:4.19.0" />
         <source-file src="src/android/BraintreeGooglePayApplePay.java" target-dir="src/cordova-plugin-braintree-googlepay-applepay/BraintreeGooglePayApplePay" />
     </platform>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="BraintreeGooglePayApplePay">
+                <param name="ios-package" value="BraintreeGooglePayApplePay" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/BraintreeGooglePayApplePay.m" />
+    </platform>
 </plugin>
