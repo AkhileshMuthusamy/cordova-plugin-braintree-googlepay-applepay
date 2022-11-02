@@ -1,4 +1,4 @@
-/********* BraintreeGooglePayApplePay.m Cordova Plugin Implementation *******/
+/********* BraintreeGooglePayApplePay.swift Cordova Plugin Implementation *******/
 
 #import <Cordova/CDV.h>
 
