@@ -20,13 +20,19 @@
             <feature name="BraintreeGooglePayApplePay">
                 <param name="ios-package" value="BraintreeGooglePayApplePay" />
             </feature>
+            <preference name="deployment-target" value="12.0" />
         </config-file>
         <source-file src="src/ios/BraintreeGooglePayApplePay.swift" />
         <!-- Add support for Swift language -->
         <dependency id="cordova-plugin-add-swift-support" version="2.0.2"/>
         <!-- Braintree iOS v5 SDK -->
-        <pods use-frameworks="true">
-            <pod name="Braintree/ApplePay" spec="~> 5.16" />
-        </pods>
+        <podspec>
+            <config>
+                <source url="https://github.com/CocoaPods/Specs.git"/>
+            </config>
+            <pods use-frameworks="true">
+                <pod name="Braintree/ApplePay" spec="~> 5.16" />
+            </pods>
+        </podspec>
     </platform>
 </plugin>
