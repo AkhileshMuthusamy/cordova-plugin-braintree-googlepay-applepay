@@ -25,6 +25,8 @@
         <!-- Add support for Swift language -->
         <dependency id="cordova-plugin-add-swift-support" version="2.0.2"/>
         <!-- Braintree iOS v5 SDK -->
-        <framework src="Braintree/ApplePay" type="podspec" spec="~> 5.16" />
+        <pods use-frameworks="true">
+            <pod name="Braintree/ApplePay" spec="~> 5.16" />
+        </pods>
     </platform>
 </plugin>
